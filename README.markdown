@@ -21,3 +21,8 @@ Ruby 2.2.2
 ## Usage
 
 `$ ruby madlibs.rb format1.txt`
+
+## Learning points
+
+- instead of `gets`, use `STDIN.gets`, because `gets` fails when there are arguments to the script.
+- remember to `require 'erb'`
