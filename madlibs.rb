@@ -9,6 +9,7 @@ def question_to_answer(placeholder)
   if @answers.include?(key)
     return @answers.fetch(key)
   else
+    # if there is something after the colon, ask using that and store it in the key before the colon
     object_name = (description || key).strip
     puts "Please enter #{object_name}:"
     answer = STDIN.gets.chomp
