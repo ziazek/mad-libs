@@ -12,7 +12,7 @@ The program should ask for two gemstones, then substitute the one designated by 
 
 Expected results: 
 
-  Our favorite language is Ruby. We think Ruby is better than Emerald. 
+    Our favorite language is Ruby. We think Ruby is better than Emerald. 
 
 ## Requirements
 
