@@ -1,18 +1,18 @@
 require 'erb'
 
-@keys = {}
+@answers = {}
 def question_to_answer(placeholder)
   # parse placeholder. the portion before the colon is the key.
   key, description = placeholder.split(":")
   # if the key exists, return the stored answer
   # else, ask from the user and store it
-  if @keys.include?(key)
-    return @keys.fetch(key)
+  if @answers.include?(key)
+    return @answers.fetch(key)
   else
-    object_name = (key || description).strip
+    object_name = (description || key).strip
     puts "Please enter #{object_name}:"
     answer = STDIN.gets.chomp
-    @keys[key] = answer
+    @answers[key] = answer
     return answer
   end
 end
