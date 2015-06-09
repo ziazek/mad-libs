@@ -2,6 +2,8 @@
 
 ## About
 
+Best of Ruby Quiz, Chapter 1
+
 This Ruby Quiz is to write a program that presents the user with that favorite childhood game, Mad Libs... A Mad Libs is a story with several placeholders.
 
 Given a string
