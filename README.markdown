@@ -28,3 +28,7 @@ Ruby 2.2.2
 
 - instead of `gets`, use `STDIN.gets`, because `gets` fails when there are arguments to the script.
 - remember to `require 'erb'`
+
+## License
+
+This code is released under the [MIT License](http://www.opensource.org/licenses/MIT)
